@@ -1,0 +1,9 @@
+run,model,Recall@1,Recall@5,Recall@10,MRR,epochs,lr,batch,max_len,infer_max_len,train_min
+zero-shot bge-base-en-v1.5,BAAI/bge-base-en-v1.5,0.8631,0.9615,0.9678,0.9077,,,,,,
+zero-shot pubmedbert-base-embeddings,NeuML/pubmedbert-base-embeddings,0.7615,0.9476,0.9653,0.8468,,,,,,
+zero-shot all-MiniLM-L6-v2,sentence-transformers/all-MiniLM-L6-v2,0.7842,0.9369,0.9533,0.8547,,,,,,
+A_minilm_3ep,sentence-transformers/all-MiniLM-L6-v2,0.9211,0.9804,0.9893,0.9477,3.0,2e-05,32.0,256.0,256.0,3.4
+B_bge_3ep,BAAI/bge-base-en-v1.5,0.9382,0.9868,0.9943,0.9601,3.0,2e-05,32.0,256.0,256.0,17.7
+C_pubmedbert_3ep,NeuML/pubmedbert-base-embeddings,0.9464,0.9886,0.9943,0.9662,3.0,2e-05,32.0,256.0,256.0,17.1
+D_bge_1ep,BAAI/bge-base-en-v1.5,0.9325,0.9823,0.9924,0.9546,1.0,2e-05,32.0,256.0,256.0,5.9
+B_bge_3ep + inference max_len 512,BAAI/bge-base-en-v1.5,0.9394,0.9874,0.9943,0.9608,3.0,2e-05,32.0,256.0,512.0,0.0
