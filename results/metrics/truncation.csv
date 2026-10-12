@@ -1,0 +1,4 @@
+model,assumed_limit,median_tokens,p95_tokens,pct_truncated
+MiniLM-L6,256,193,755,36.5
+BGE-base,512,193,755,11.2
+PubMedBERT,512,179,679,9.2

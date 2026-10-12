@@ -1,0 +1,6 @@
+step,rows,removed
+raw,16407,0
+drop missing,16407,0
+drop answers < 10 words,16328,79
+drop duplicates,16280,48
+drop boilerplate answers (>5 questions),15786,494

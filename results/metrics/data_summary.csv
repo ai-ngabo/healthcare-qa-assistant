@@ -1,0 +1,10 @@
+,value
+total_pairs,15786
+unique_answers,15723
+unique_questions,14433
+question_types,16
+median_question_words,8
+median_answer_words,143
+train,12624
+val,1585
+test,1577
