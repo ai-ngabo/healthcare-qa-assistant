@@ -1,0 +1,8 @@
+{
+  "run": "C_pubmedbert_3ep",
+  "model_id": "NeuML/pubmedbert-base-embeddings",
+  "prefix": "",
+  "max_len": 256,
+  "val_MRR": 0.9662,
+  "val_Recall@1": 0.9464
+}
