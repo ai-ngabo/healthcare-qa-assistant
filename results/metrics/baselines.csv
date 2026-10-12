@@ -1,0 +1,5 @@
+,Recall@1,Recall@5,Recall@10,MRR
+BM25 (baseline),0.6732,0.8877,0.9073,0.7719
+MiniLM-L6 (zero-shot),0.7842,0.9369,0.9533,0.8547
+BGE-base (zero-shot),0.8631,0.9615,0.9678,0.9077
+PubMedBERT (zero-shot),0.7615,0.9476,0.9653,0.8468
