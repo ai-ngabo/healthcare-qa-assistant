@@ -1,0 +1,9 @@
+{
+  "threshold": 0.6219,
+  "min_name_overlap": 0.5,
+  "prefix": "",
+  "max_len": 256,
+  "base_model": "NeuML/pubmedbert-base-embeddings",
+  "run": "C_pubmedbert_3ep",
+  "model_hub_repo": "alain-ngabo/healthcare-qa-retriever"
+}
