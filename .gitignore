@@ -5,9 +5,6 @@ __pycache__/
 .streamlit/secrets.toml
 app/secrets.toml
 .env
-models/
-app/model/
-data/*
-!data/README.md
+models/*
 *.zip
 *.log
