@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.streamlit/secrets.toml
+app/secrets.toml
+.env
+models/
+app/model/
+data/*
+!data/README.md
+*.zip
+*.log
