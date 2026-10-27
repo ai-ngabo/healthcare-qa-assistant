@@ -1,4 +1,4 @@
-#AfriHealth Knowledge QA Assistant
+# AfriHealth Knowledge QA Assistant
 
 **An English question-answering assistant that explains diseases, their causes, symptoms and prevention using verified NIH answers.** A PubMedBERT-based sentence encoder is fine-tuned to retrieve the right answer, and a Streamlit app lets anyone try it.
 
